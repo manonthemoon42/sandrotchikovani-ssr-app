@@ -24,10 +24,14 @@ coverage
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+client/build
 
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
 node_modules*
+/.pnp
+.pnp.js
+dist
 
 # Documentation directory
 documentation
@@ -39,7 +43,15 @@ npm-debug.log
 .idea
 .DS_Store
 *.iml
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Backup MongoDB files
 backup/*
 !backup/.gitkeep
+
+
+
+
