@@ -5,9 +5,9 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "npm run build && node bin/www",
-    "client": "webpack-dev-server --watch-content-base --mode development --devtool inline-source-map --hot",
-    "server": "nodemon src/server/index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "clientDev": "webpack-dev-server --mode development --devtool inline-source-map --hot --port 3000",
+    "serverDev": "PORT=8080 nodemon bin/www localhost 8080",
+    "dev": "concurrently \"npm run serverDev\" \"npm run clientDev\"",
     "lint": "eslint client/**/*.js"
   },
   "dependencies": {
@@ -36,9 +36,9 @@
     "nodemon": "^1.17.3",
     "style-loader": "^0.23.0",
     "url-loader": "^1.0.1",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.3"
+    "webpack": "^4.28",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
   },
   "browserslist": [
     ">0.2%",
