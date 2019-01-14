@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './MainApp/App';
 import * as serviceWorker from './serviceWorker';
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.hydrate(<App />, document.getElementById('root'));
 

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSans'), url(../../public/fonts/OpenSans-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: local('OpenSans-Bold'), url(../../public/fonts/OpenSans-Bold.ttf) format('ttf');
+}
+
+.App {
+  min-height: 100vh;
+  font-family: 'Open Sans Bold';
+  background-image: linear-gradient(#000428, #004E92);
+}

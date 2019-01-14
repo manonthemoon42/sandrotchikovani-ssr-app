@@ -1,0 +1,10 @@
+.NavLink.active > span {
+    color: white;
+    opacity:1;
+}
+
+.NavLink > span {
+    color: #FFFFFF;
+    font-size: 20px;
+    opacity:0.65;
+}
