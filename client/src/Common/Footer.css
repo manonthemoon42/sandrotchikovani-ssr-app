@@ -1,13 +1,13 @@
 .Footer {
-    position: absolute;
     text-align: center;
     bottom: 0;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 0px;
     color: white;
     font-family: 'Open Sans';
-    font-size: calc(5px + 2vmin);
+    font-size: calc(3px + 2vmin);
 }
 
 .SocialIcon {

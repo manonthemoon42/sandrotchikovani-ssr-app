@@ -1,3 +1,7 @@
+#NavBar {
+    padding-bottom: 25px;
+}
+
 .NavLink.active > span {
     color: white;
     opacity:1;
@@ -5,6 +9,7 @@
 
 .NavLink > span {
     color: #FFFFFF;
+    font-family: 'Open Sans Bold';
     font-size: 20px;
     opacity:0.65;
 }

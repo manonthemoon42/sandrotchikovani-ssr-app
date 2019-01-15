@@ -8,7 +8,7 @@ import './Menu.css';
 class Menu extends Component {
     render() {
         return (
-            <Navbar expand="lg" className="NavBarNav">
+            <Navbar expand="lg" id="NavBar">
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mx-auto">
                         <IndexLinkContainer to="/">

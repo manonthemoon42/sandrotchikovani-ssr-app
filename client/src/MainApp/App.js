@@ -18,11 +18,13 @@ class App extends Component {
         <BrowserRouter>
           <div className="App">
                 <Menu/>
-                <Switch>
-                  <Route exact path='/' component={BienvenuePage}/>
-                  <Route exact='/projects' component={ProjectsPage}/>
-                  <Route path='*' exact={true} component={NotFoundPage} />
-                </Switch>
+                <div>
+                    <Switch>
+                      <Route exact path='/' component={BienvenuePage}/>
+                      <Route exact path='/projects' component={ProjectsPage}/>
+                      <Route exact path='*' component={NotFoundPage} />
+                    </Switch>
+                </div>
                 <Footer/>
           </div>
         </BrowserRouter>
