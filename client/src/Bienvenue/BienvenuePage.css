@@ -1,8 +1,20 @@
-#BienvenueContent {
+#RowImage {
     text-align: center;
-    font-size: calc(3px + 2vmin);
 }
 
 #RowText {
+    font-size: calc(3px + 2vmin);
     margin-top: 25px;
+}
+
+#BienvenueContainer {
+    width: 55%;
+}
+
+#Hello {
+    text-align: center;
+}
+
+.StrongWord {
+    font-family: 'Open Sans Bold';
 }
