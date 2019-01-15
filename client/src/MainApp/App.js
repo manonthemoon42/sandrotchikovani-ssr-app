@@ -16,17 +16,17 @@ class App extends Component {
   render() {
     return (
         <BrowserRouter>
-          <div className="App">
+            <div className="App">
                 <Menu/>
                 <div>
                     <Switch>
-                      <Route exact path='/' component={BienvenuePage}/>
-                      <Route exact path='/projects' component={ProjectsPage}/>
-                      <Route exact path='*' component={NotFoundPage} />
+                        <Route exact path='/' component={BienvenuePage}/>
+                        <Route exact path='/projects' component={ProjectsPage}/>
+                        <Route exact path='*' component={NotFoundPage} />
                     </Switch>
                 </div>
                 <Footer/>
-          </div>
+            </div>
         </BrowserRouter>
     );
   }

@@ -8,9 +8,11 @@ import './Menu.css';
 class Menu extends Component {
     render() {
         return (
-            <Navbar expand="lg" id="NavBar">
+            <Navbar expand="lg" id="NavBar" className="navbar-dark">
+                <Navbar.Brand></Navbar.Brand>
+                <Navbar.Toggle className="CustomToggler" aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mx-auto">
+                    <Nav className="mx-auto text-right">
                         <IndexLinkContainer to="/">
                             <Nav.Link className="NavLink">
                                 <span>BIENVENUE</span>
@@ -23,7 +25,6 @@ class Menu extends Component {
                         </IndexLinkContainer>
                     </Nav>
                 </Navbar.Collapse>
-                <Navbar.Toggle className="CustomToggler" aria-controls="basic-navbar-nav" />
             </Navbar>
         );
     }
