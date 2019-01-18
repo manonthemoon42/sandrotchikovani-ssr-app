@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="742px" height="262px" viewBox="0 0 742 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Trophiz Project</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-0.923859019%" y1="100%" x2="100%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#22E1FF" offset="0%"></stop>
+            <stop stop-color="#1D8FE1" offset="44.7118858%"></stop>
+            <stop stop-color="#625EB1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Projects-HD" transform="translate(-622.000000, -199.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Trophiz-Project" transform="translate(622.000000, 199.000000)">
+                <rect id="Rectangle" x="0" y="0" width="742" height="262"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -8,13 +8,15 @@
 }
 
 #BienvenueContainer {
-    width: 55%;
+    min-width: 55%;
+    max-width: 85%;
 }
 
 #Hello {
     text-align: center;
 }
 
-.StrongWord {
+.BoldText {
     font-family: 'Open Sans Bold';
+    color: white;
 }

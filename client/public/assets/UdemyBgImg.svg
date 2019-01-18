@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="742px" height="262px" viewBox="0 0 742 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Udemy Project</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#701A52" offset="0%"></stop>
+            <stop stop-color="#CF3C52" offset="53.3575686%"></stop>
+            <stop stop-color="#CC4549" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Projects-HD" transform="translate(-622.000000, -493.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Udemy-Project" transform="translate(622.000000, 493.000000)">
+                <rect id="Rectangle" x="0" y="0" width="742" height="262"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

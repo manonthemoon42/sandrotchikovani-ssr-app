@@ -1,0 +1,49 @@
+.Project {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.ProjectLearnMoreBtn:hover {
+    cursor: pointer;
+}
+
+.ProjectLearnMoreBtn {
+    font-family: 'Open Sans Bold';
+    font-size: 18px;
+    color: #4A4A4A;
+    background-color: white;
+    float: right;
+    margin-right: 15px;
+    border-radius: 5px;
+    min-height: 40px;
+    box-shadow: 0px 2px 5px black;
+}
+
+.Row {
+    height: 150px;
+}
+
+.ProjectLogo {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#SandroProject {
+    background: url("../../public/assets/SandroBgImg.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#TrophizProject {
+    background: url("../../public/assets/TrophizBgImg.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+#UdemyProject {
+    background: url("../../public/assets/UdemyBgImg.svg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
