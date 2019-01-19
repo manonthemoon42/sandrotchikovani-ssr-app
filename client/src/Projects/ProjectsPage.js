@@ -18,7 +18,7 @@ class ProjectsPage extends Component {
     constructor(props) {
         super(props);
 
-        const sandro = new ProjectModel("SandroProject", SandroLogoImg, "https://www.sandrotchikovani.com");
+        const sandro = new ProjectModel("SandroProject", SandroLogoImg, "https://github.com/manonthemoon42/sandrotchikovani-ssr-app");
         const trophiz = new ProjectModel("TrophizProject", TrophizLogoImg, "https://itunes.apple.com/us/app/trophiz-sports-athletes/id1275819465?mt=8");
         const udemy = new ProjectModel("UdemyProject", UdemyLogoImg, "https://itunes.apple.com/us/app/udemy-online-courses/id562413829?mt=8");
         const tripAdvisor = new ProjectModel("TripAdvisorProject", TripAdvisorLogoImg, "https://itunes.apple.com/us/app/tripadvisor-hotels-restaurants/id284876795?mt=8");
