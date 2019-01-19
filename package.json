@@ -8,8 +8,7 @@
     "clientDev": "webpack-dev-server --mode development --devtool inline-source-map --hot --port 3000",
     "serverDev": "PORT=8080 nodemon bin/www localhost 8080",
     "dev": "concurrently \"npm run serverDev\" \"npm run clientDev\"",
-    "lint": "eslint client/**/*.js",
-    "heroku-prebuild": "npm install --dev"
+    "lint": "eslint client/**/*.js"
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
