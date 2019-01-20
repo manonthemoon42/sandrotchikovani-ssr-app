@@ -10,7 +10,7 @@
 
 .NavLink > span {
     color: #FFFFFF;
-    font-family: 'Open Sans Bold';
+    font-family: 'Open Sans Bold', 'Arial Bold', 'Helvetica Neue';
     font-size: 20px;
     opacity:0.65;
 }

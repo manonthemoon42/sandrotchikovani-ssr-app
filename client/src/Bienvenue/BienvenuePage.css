@@ -17,6 +17,6 @@
 }
 
 .BoldText {
-    font-family: 'Open Sans Bold';
+    font-family: 'Open Sans Bold', 'Arial Bold', 'Helvetica Neue';
     color: white;
 }
