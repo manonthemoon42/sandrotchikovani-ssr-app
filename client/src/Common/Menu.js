@@ -23,6 +23,11 @@ class Menu extends Component {
                                 <span>PROJECTS</span>
                             </Nav.Link>
                         </IndexLinkContainer>
+                        <IndexLinkContainer to="/resume">
+                            <Nav.Link className="NavLink">
+                                <span>RESUME</span>
+                            </Nav.Link>
+                        </IndexLinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

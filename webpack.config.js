@@ -9,7 +9,8 @@ module.exports = {
     output: {
         path: path.join(__dirname, outputDirectory),
         publicPath: '/',
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        globalObject: 'this'
     },
     module: {
         rules: [
@@ -25,7 +26,7 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             },
             {
-                test: /\.(png|jpg|svg|ico)$/,
+                test: /\.(png|jpg|svg|ico|pdf)$/,
                 loader: 'url-loader?limit=8192'
             },
             {

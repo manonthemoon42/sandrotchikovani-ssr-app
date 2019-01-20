@@ -20,13 +20,14 @@
     "react": "^16.7.0",
     "react-bootstrap": "^1.0.0-beta.3",
     "react-dom": "^16.7.0",
+    "react-pdf": "^4.0.2",
     "react-router-bootstrap": "^0.24.4",
     "react-router-dom": "^4.3.1",
     "react-social-icons": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.0",

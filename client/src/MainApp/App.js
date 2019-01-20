@@ -8,6 +8,7 @@ import Footer from "../Common/Footer";
 // Pages
 import BienvenuePage from "../Bienvenue/BienvenuePage";
 import ProjectsPage from "../Projects/ProjectsPage";
+import ResumePage from "../Resume/ResumePage";
 import NotFoundPage from "../Errors/NotFoundPage";
 
 import './App.css';
@@ -22,6 +23,7 @@ class App extends Component {
                     <Switch>
                         <Route exact path='/' component={BienvenuePage}/>
                         <Route exact path='/projects' component={ProjectsPage}/>
+                        <Route exact path='/resume' component={ResumePage}/>
                         <Route exact path='*' component={NotFoundPage} />
                     </Switch>
                 </div>
