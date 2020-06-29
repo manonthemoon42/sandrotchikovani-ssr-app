@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Navbar from 'react-bootstrap/lib/Navbar';
-import Nav from 'react-bootstrap/lib/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import IndexLinkContainer from 'react-router-bootstrap/lib/IndexLinkContainer';
 
 import './Menu.css';
